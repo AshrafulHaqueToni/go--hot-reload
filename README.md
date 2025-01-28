@@ -1,7 +1,11 @@
 # go--hot-reload
 
-### To run your server just run
+### Install air for hot reloading
+```bash
+RUN go install github.com/air-verse/air@latest
+```
+### Run Your Application with air:
 ```bash
 air
 ```
-Then whenever you change your code it's reload your current change
+Make changes to your Go code (e.g., modify the message in main.go). Save the file, and air will automatically rebuild and restart your application. Refresh your browser to see the changes.
